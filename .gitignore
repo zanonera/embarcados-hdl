@@ -1,0 +1,7 @@
+# modelsim files #
+##########################
+*.mti
+*.mpf
+*.wlf
+*.bak
+**/work/
