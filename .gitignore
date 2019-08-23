@@ -5,3 +5,10 @@
 *.wlf
 *.bak
 **/work/
+
+# ghdl files #
+##########################
+*.exe
+*.o
+*.vcd
+*.cf
