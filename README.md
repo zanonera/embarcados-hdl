@@ -10,7 +10,7 @@ To get started with the project, visit its description's page at [Embarcados](ht
 Project 1 - 74138:
    - [X] With logic gates
    - [X] Using process with IF
-   - [ ] Using process with CASE
+   - [X] Using process with CASE
    - [ ] Using WHEN..ELSE
    - [ ] Using WITH..SELECT
 
