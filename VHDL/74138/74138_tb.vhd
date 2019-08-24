@@ -43,6 +43,8 @@ begin
   begin
     --  Check each pattern.
     for i in patterns'range loop
+      -- Print the evolutions of the tests
+      report "Truth Table line: " & integer'image(i) ;
       --  Set the inputs.
       e1 <= patterns(i).e1;
       e2 <= patterns(i).e2;
