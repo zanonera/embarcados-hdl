@@ -30,7 +30,7 @@ Project 5 - 74218
    - [ ] How to transform the RAM into a ROM
    
 Project 6 - 74232
-   - [ ] Implment the states control (full, empty e etc) with a state machine
+   - [ ] Implementing the states control (full, empty e etc) with a state machine
    - [ ] Implementing the RAM as a external component
    - [ ] Implementing the FIFO with 8 bits (rather than 4)
    - [ ] Implementing the FIFO with a clock for write and another for read (assynchronous fifo)  

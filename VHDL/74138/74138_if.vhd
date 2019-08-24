@@ -6,10 +6,8 @@ entity SN74LS138 is
 end SN74LS138;
 
 architecture gates of SN74LS138 is
-signal addr : bit;
 begin
-  --  This 74138 architecture contains only concurrent assignments using the logic diagram of the unit.
-  --  Compute the enable input bit.
+  --  This 74138 architecture describes the unit using the IF clause inside the process
    process(e1, e2, e3, a0, a1, a2)
    begin
       if ((e1 = '1') or (e2 = '1') or (e3 = '0')) then
