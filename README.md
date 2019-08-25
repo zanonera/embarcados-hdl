@@ -11,7 +11,7 @@ Project 1 - 74138:
    - [X] With logic gates
    - [X] Using process with IF
    - [X] Using process with CASE
-   - [ ] Using WHEN..ELSE
+   - [X] Using WHEN..ELSE
    - [ ] Using WITH..SELECT
 
 Project 2 - 74181:
