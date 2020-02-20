@@ -12,10 +12,10 @@ END SN74LS74A;
 ARCHITECTURE behavior OF SN74LS74A IS
 BEGIN
    -- DFF1
-   q1 <= d1 when (clk1'EVENT AND clk1='1') else '0' when (clr1='0') else '1' when (pr1='0');
-   qb1 <= not d1 when (clk1'EVENT AND clk1='1') else '1' when (clr1='0') else '0' when (pr1='0');
+   q1 <= d1 when (clk1'EVENT AND clk1='1' AND clr1 ='1' AND pr1='1') else '1' when (clr1 ='0' AND pr1='0') else '0' when (clr1='0') else '1' when (pr1='0');
+   qb1 <= not d1 when (clk1'EVENT AND clk1='1'AND clr1 ='1' AND pr1='1') else '1' when (clr1 ='0' AND pr1='0') else '1' when (clr1='0') else '0' when (pr1='0');
    -- DFF2
-   q2 <= d2 when (clk2'EVENT AND clk2='1') else '0' when (clr2='0') else '1' when (pr2='0');
-   qb2 <= not d2 when (clk2'EVENT AND clk2='1') else '1' when (clr2='0') else '0' when (pr2='0');
+   q2 <= d2 when (clk2'EVENT AND clk2='1' AND clr2 ='1' AND pr2='1') else '1' when (clr2 ='0' AND pr2='0') else '0' when (clr2='0') else '1' when (pr2='0');
+   qb2 <= not d2 when (clk2'EVENT AND clk2='1' AND clr2 ='1' AND pr2='1') else '1' when (clr2 ='0' AND pr2='0') else '1' when (clr2='0') else '0' when (pr2='0');
 END behavior;
  ---------------------------------------
